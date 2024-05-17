@@ -98,8 +98,13 @@
 
 .Awesome__grid__card {
     width: 262px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    margin: 0 auto;
 }
 
 .Awesome__grid__card:hover {
