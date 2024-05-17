@@ -1,0 +1,120 @@
+.navbar__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar__header__ul li {
+    padding: 36px 23px;
+}
+
+.navbar__header__ul li a{
+    padding: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: black;
+}
+
+.header__right a i{
+    color: black;
+}
+
+header{
+    background-color: #ECFDFF;
+    /* padding-left: 130px; */
+}
+
+.maxWidth{
+    max-width: 1170px !important;
+}
+
+.sebet__box{
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.705);
+    top: 0px;
+    left: 0;
+    z-index: 99;
+    transition: all 0.3s ease;
+}
+
+.sebet__box__card{
+    background-color: rgba(255, 255, 255, 0.722);
+    margin: 0 10px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.sebet__box h1{
+    color: white;
+}
+
+.sebet__box__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.sebet__box__top__icon{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sebet__box__card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sebet__box__card p{
+    margin: 0;
+}
+
+.sebet__box__card__right__box{
+    border-radius: 30px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.593);
+    color: white;
+}
+
+.sebet__box__card__right__box button{
+    background: none;
+    border: none;
+    color: white;
+}
+
+.basket__canvas__x{
+    cursor: pointer;
+}
+
+.basket__canvas__x__none{
+    left: -300px;
+}
+
+.sebet__box__top__icon button{
+    border: none;
+    background: none;
+}
+
+.sebet_a{
+    cursor:pointer;
+}

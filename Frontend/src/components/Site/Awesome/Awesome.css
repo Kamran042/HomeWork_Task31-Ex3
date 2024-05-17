@@ -1,0 +1,129 @@
+.Awesome {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.Awesome__top {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.Awesome__top h2 {
+    font-size: 36px;
+    color: #1a1a1a;
+    line-height: 27px;
+    font-weight: 700;
+    position: relative;
+    /* margin-bottom: 28px; */
+}
+
+
+.Awesome__top h3 {
+    color: #adadad;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 60px;
+    margin-bottom: 0;
+}
+
+.Awesome__grid__card__title {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding-top: 30px;
+
+}
+
+.Awesome__grid__card__title h4 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 14px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.Awesome__grid__card__title__betwenn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    i {
+        font-size: 18px;
+        color: black;
+        opacity: 0;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+}
+
+.Awesome__grid__card__title p {
+    font-weight: 300;
+    font-size: 18px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.add__basket {
+    color: #ff3368;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin-top: 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    opacity: 0;
+    background: none;
+    border: none;
+    margin: 0;
+}
+
+.Awesome__grid__card__img {
+    width: 262px;
+    height: 280px;
+}
+
+.Awesome__grid__card__img img {
+    width: 100%;
+    height: 100%;
+}
+
+.Awesome__grid {
+    display: grid;
+    gap: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    grid-template-columns: repeat(auto-fill, minmax(262px, 1fr));
+}
+
+.Awesome__grid__card {
+    width: 262px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.Awesome__grid__card:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.Awesome__grid__card:hover .Awesome__grid__card__title {
+    padding: 30px 30px 0 30px;
+}
+
+.Awesome__grid__card:hover .add__basket {
+    opacity: 1;
+}
+
+.Awesome__grid__card:hover .Awesome__grid__card__title__betwenn i {
+    opacity: 1;
+}
+
+.detail__card {
+    background: none;
+    border: none;
+}
+
+.detail__card i {
+    color: #ff3368;
+}

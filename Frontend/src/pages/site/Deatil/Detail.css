@@ -1,0 +1,13 @@
+.detail img{
+    max-width: 100%;
+}
+
+.detail {
+    margin-top: 100px;
+}
+
+.detail h1,
+.detail h2,
+.detail p{
+    text-align: right;
+}
